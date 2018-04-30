@@ -234,7 +234,6 @@ clobber "${rsOut}"/motionScrub/"$(basename "${epiDataFiltReg/.nii/_ms.nii}")" &&
   --epi="${epiDataFiltReg}" \
   --motionscrub \
   --roiList="${roilist}" \
-  --seedmaps \
   "${compcorArg}"
 
 # prevents permissions denied error when others run new seeds
